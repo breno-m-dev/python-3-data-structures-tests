@@ -1,0 +1,72 @@
+functions that supposidelly are simmilar to range. In the sense they don't actually store values, but a way
+to build the values.
+
+map()
+
+filter()
+
+Generators (yield)
+
+Comprehensions  
+
+zip()
+
+enumerate()
+
+iter()
+
+🔁 Geradores com yield
+
+Você mesmo pode criar seus próprios range:
+
+def meu_range():
+    for i in range(3):
+        yield i
+
+
+
+
+✅ map()
+
+Aplica função a cada item:
+
+map(lambda x: x*2, [1,2,3])
+
+✅ filter()
+
+Filtra valores:
+
+filter(lambda x: x % 2 == 0, [1,2,3,4])
+
+✅ zip()
+
+Combina sequências:
+
+zip([1,2],[3,4])
+
+✅ enumerate()
+
+Indice + valor:
+
+enumerate(["a","b","c"])
+
+✅ reversed()
+
+Percorre ao contrário:
+
+reversed([1,2,3])
+
+✅ iter()
+
+Cria um iterador manual:
+
+iter([1,2,3])
+
+
+
+
+Isso cria um:
+
+✅ generator
+✅ iterável
+✅ preguiçoso (lazy)
