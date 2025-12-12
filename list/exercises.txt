@@ -1,0 +1,85 @@
+1) Sum of elements
+
+Task:
+Create a list with the values [3, 7, 2, 9] and print the sum of all elements.
+
+Expected output:
+
+21
+
+2) Find the largest number
+
+Task:
+Given the list numbers = [10, 55, 2, 99, 32], print the largest number.
+
+Expected output:
+
+99
+
+3) Count elements
+
+Task:
+Given the list fruits = ["apple", "grape", "banana", "grape", "orange", "grape"], count how many times "grape" appears.
+
+Expected output:
+
+3
+
+4) Replace a value
+
+Task:
+Create a list colors = ["red", "blue", "green"].
+Replace "blue" with "yellow" and print the list.
+
+Expected output:
+
+['red', 'yellow', 'green']
+
+5) Basic list comprehension
+
+Task:
+Given the list nums = [1, 2, 3, 4, 5], create a new list where each value is multiplied by 10.
+
+Expected output:
+
+[10, 20, 30, 40, 50]
+
+6) Remove elements
+
+Task:
+Given the list animals = ["cat", "dog", "rat", "elephant"],
+remove "rat" and print the list.
+
+Expected output:
+
+['cat', 'dog', 'elephant']
+
+7) Access specific values
+
+Task:
+Given the list letters = ["a", "b", "c", "d", "e"],
+print only the 1st, 3rd, and last elements.
+
+Expected output:
+
+a
+c
+e
+
+8) List of lists
+
+Task:
+Given the matrix
+
+mat = [
+    [1, 2],
+    [3, 4],
+    [5, 6]
+]
+
+
+Print the number 4 using indexing.
+
+Expected output:
+
+4

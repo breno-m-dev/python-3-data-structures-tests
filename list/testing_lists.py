@@ -33,3 +33,11 @@ for i in list3:
     x = x + i
 
 print("Concatenating list 3 values \n" + x)
+
+list4 = ["1","2","3"]
+
+x=""
+for i in list4:
+    x = x + i #this works and treats list4 values as str. 
+    
+print("Concatenating list 4 values \n" + x)
