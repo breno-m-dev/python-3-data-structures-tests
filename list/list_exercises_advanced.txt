@@ -1,0 +1,106 @@
+9) Filter even numbers
+
+Task:
+Given the list nums = [1, 2, 3, 4, 5, 6, 7, 8], create a new list containing only the even numbers.
+
+Expected output:
+
+[2, 4, 6, 8]
+
+10) Remove duplicates (keep order)
+
+Task:
+Given the list values = [1, 2, 2, 3, 1, 4, 3], create a new list without duplicates, keeping the original order.
+
+Expected output:
+
+[1, 2, 3, 4]
+
+11) Reverse a list manually
+
+Task:
+Given the list data = [10, 20, 30, 40], create a new list that is the reverse of it.
+⚠️ Do not use reverse() or slicing.
+
+Expected output:
+
+[40, 30, 20, 10]
+
+12) Find common elements
+
+Task:
+Given:
+
+a = [1, 2, 3, 4, 5]
+b = [4, 5, 6, 7]
+
+
+Create a list containing the elements that appear in both lists.
+
+Expected output:
+
+[4, 5]
+
+13) Nested loop with lists
+
+Task:
+Given:
+
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+
+Print all elements, one per line.
+
+Expected output:
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+14) Flatten a list
+
+Task:
+Given:
+
+nested = [[1, 2], [3, 4], [5]]
+
+
+Create a single list containing all numbers.
+
+Expected output:
+
+[1, 2, 3, 4, 5]
+
+15) Find the index of all occurrences
+
+Task:
+Given the list letters = ["a", "b", "a", "c", "a"],
+find all indexes where "a" appears.
+
+Expected output:
+
+[0, 2, 4]
+
+16) Rotate a list
+
+Task:
+Given the list items = [1, 2, 3, 4, 5],
+rotate it one position to the left.
+
+Expected output:
+
+[2, 3, 4, 5, 1]
+
+
+🔥 Extra challenge (opcional, mas muito bom pra cérebro):
+Refaça os exercícios 9, 10, 14 e 15 usando list comprehension.
