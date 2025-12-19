@@ -15,6 +15,7 @@
 nested = [[1, 2], [3, 4], [5]]
 output = []
 for i in nested:
+    print(i)
     for k in i:
         output.append(k)
 
