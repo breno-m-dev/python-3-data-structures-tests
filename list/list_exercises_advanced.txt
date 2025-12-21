@@ -104,3 +104,112 @@ Expected output:
 
 🔥 Extra challenge (opcional, mas muito bom pra cérebro):
 Refaça os exercícios 9, 10, 14 e 15 usando list comprehension.
+
+21) Squares of even numbers
+
+Task:
+Given the list nums = [1, 2, 3, 4, 5, 6], create a new list containing the square of only the even numbers.
+
+Expected output:
+
+[4, 16, 36]
+
+22) Length of each word
+
+Task:
+Given the list words = ["python", "rust", "code", "list"],
+create a list containing the length of each word.
+
+Expected output:
+
+[6, 4, 4, 4]
+
+23) Uppercase words with condition
+
+Task:
+Given the list names = ["ana", "bob", "christopher", "eva"],
+create a list with the names in uppercase, but only those with more than 3 characters.
+
+Expected output:
+
+['CHRISTOPHER']
+
+24) Flatten and filter
+
+Task:
+Given:
+
+nested = [[1, 2, 3], [4, 5], [6, 7, 8]]
+
+
+Create a flat list containing only numbers greater than 4.
+
+Expected output:
+
+[5, 6, 7, 8]
+
+25) Get vowels from a string
+
+Task:
+Given the string text = "list comprehension",
+create a list containing only the vowels, in order.
+
+Expected output:
+
+['i', 'o', 'e', 'e', 'i', 'o']
+
+26) Replace values with condition
+
+Task:
+Given the list nums = [1, 2, 3, 4, 5],
+create a new list where:
+
+even numbers become "even"
+
+odd numbers become "odd"
+
+Expected output:
+
+['odd', 'even', 'odd', 'even', 'odd']
+
+27) Index + value
+
+Task:
+Given the list letters = ["a", "b", "c", "d"],
+create a list of strings in the format "index:value".
+
+Expected output:
+
+['0:a', '1:b', '2:c', '3:d']
+
+28) Remove falsy values
+
+Task:
+Given the list:
+
+values = [0, 1, "", "hello", [], [1, 2], None]
+
+
+Create a new list containing only truthy values.
+
+Expected output:
+
+[1, 'hello', [1, 2]]
+
+29) Transpose a matrix
+
+Task:
+Given:
+
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6]
+]
+
+
+Create a transposed version of the matrix using list comprehension.
+
+Expected output:
+
+[[1, 4], [2, 5], [3, 6]]
+
