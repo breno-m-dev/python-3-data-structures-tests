@@ -5,9 +5,7 @@
 
 # text = "sets are cool and sets are fast"
 
-
 # Create a set containing all unique words.
-
 # Expected output:
 
 # {'sets', 'are', 'cool', 'and', 'fast'}
