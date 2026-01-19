@@ -26,3 +26,8 @@ list2 =  copy.deepcopy(list1)
 list2.append(4)
                 
 print(list1)
+#deep copy works for any level of nesting
+list1 = [[[[1,2,3]]]]
+list2 =  copy.deepcopy(list1)
+list2[0][0][0].append("oioi") 
+print(list1)
