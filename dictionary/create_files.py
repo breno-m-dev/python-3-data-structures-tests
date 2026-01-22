@@ -3,7 +3,6 @@
 #Usually I do 30 exercises per topic.
 import os
 
-
 start = 2
 end = 30
 for i in range(start,end+1,1):
