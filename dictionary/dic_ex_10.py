@@ -8,9 +8,7 @@ data = {
     "Bob": {"age": 30, "country": "USA"}
 }
 
-
 # Expected output:
-
 # {
 #     "Alice": {"age": 26, "country": "Brazil"},
 #     "Bob": {"age": 30, "country": "USA"}
