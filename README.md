@@ -30,8 +30,8 @@ All solutions were implemented using only Python’s standard library.
 Clone the repository:
 
 ```bash
-git clone <your-repo-link>
-cd <repo-name>
+git clone https://github.com/breno-m-dev/python-3-data-structures-tests
+cd python-3-data-structures-tests
 ```
 
 Run any file using:
